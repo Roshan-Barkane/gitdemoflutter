@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.pink,
         title: const Text(
           "Git + flutter ",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Colors.white, fontSize: 25),
         ),
       ),
       body: const Center(
