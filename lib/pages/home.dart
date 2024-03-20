@@ -13,11 +13,16 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pink,
-        title: Text(
+        title: const Text(
           "Git + flutter ",
           style: TextStyle(color: Colors.white),
         ),
       ),
+      body: const Center(
+          child: Text(
+        "Git+Flutter",
+        style: TextStyle(fontSize: 40),
+      )),
     );
   }
 }
